@@ -16,7 +16,11 @@ Entry for the [make.fun bounty "The plan make.fun will carry out in public"](htt
 node main.ts
 ```
 
-The program is deterministic: every run writes the identical 275-character UTF-8 text.
+The program is deterministic: every run writes the identical 278-character UTF-8 text.
+
+## v2 revision
+
+The v2 entry keeps the Etsy photo-pack plan but states the expected money from a conversion rate (200 shops × 5% buy = 10 sales, $390 in week 1, repeat orders past $600 by day 30) and sharpens the edge: the free sample is the pitch, so sellers see their own product fixed before paying. `main.ts` now also guards the 1–280 code-point gate and verifies the written file round-trips exactly.
 
 ## License
 
